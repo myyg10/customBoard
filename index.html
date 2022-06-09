@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>거래처 관리</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div id="container">
+    <header>
+      <div id="title">
+        <h1>거래처 관리</h1>
+        <nav>
+          <input type="button" value="등록">
+          <input type="button" value="수정">
+          <input type="button" value="삭제">
+        </nav>
+      </div>
+    </header>
+    <form>
+      <fieldset id="search">
+        <ul>
+          <li>
+            <label for="busiNum">사업자 번호</label>
+            <input type="text" id="busiNum">
+          </li>
+          <li>
+            <label for="custom">거래처명</label>
+            <input type="text" id="custom">
+            <input type="submit" value="조회">
+          </li>
+        </ul>
+        <table id="selectTable">
+          <tr>
+            <th>사업자 번호</th>
+            <th>거래처명</th>
+          </tr>
+          <tr>
+            <td>1111</td>
+            <td>롯데마트</td>
+          </tr>
+          <tr>
+            <td>1111</td>
+            <td>롯데마트</td>
+          </tr>
+          <tr>
+            <td>1111</td>
+            <td>롯데마트</td>
+          </tr>
+          <tr>
+            <td>1111</td>
+            <td>롯데마트</td>
+          </tr>
+          <tr>
+            <td>1111</td>
+            <td>롯데마트</td>
+          </tr>
+          <tr>
+            <td>1111</td>
+            <td>롯데마트</td>
+          </tr>
+          <tr>
+            <td>1111</td>
+            <td>롯데마트</td>
+          </tr>
+          <tr>
+            <td>1111</td>
+            <td>롯데마트</td>
+          </tr>
+          <tr>
+            <td>1111</td>
+            <td>롯데마트</td>
+          </tr>
+          <tr>
+            <td>1111</td>
+            <td>롯데마트</td>
+          </tr>
+          <tr>
+            <td>1111</td>
+            <td>롯데마트</td>
+          </tr>
+          <tr>
+            <td>1111</td>
+            <td>롯데마트</td>
+          </tr>
+          <tr>
+            <td>1111</td>
+            <td>롯데마트</td>
+          </tr>
+          <tr>
+            <td>1111</td>
+            <td>롯데마트</td>
+          </tr>
+          <tr>
+            <td>1111</td>
+            <td>롯데마트</td>
+          </tr>
+        </table>
+      </fieldset>
+      <fieldset id="info">
+        <table id="infoTable">
+          <tr>
+            <td>사업자번호<input type="text"></td>
+            <td>약 &nbsp&nbsp&nbsp 칭<input type="text"></td>
+          </tr>
+          <tr>
+            <td>거래처명<input type="text"></td>
+          </tr>
+          <tr>
+            <td>대 표 자<input type="text"></td>
+            <td>담 당 자<input type="text"></td>
+          </tr>
+          <tr>
+            <td>업 &nbsp&nbsp&nbsp 태<input type="text"></td>
+            <td>종 &nbsp&nbsp&nbsp 목<input type="text"></td>
+          </tr>
+          <tr>
+            <td>우편번호<input type="text"></td>
+            <td>주 소 1<input type="text"></td>
+          </tr>
+          <tr>
+            <td>주 소 2<input type="text"></td>
+          </tr>
+          <tr>
+            <td>전화번호<input type="text"></td>
+            <td>팩스번호<input type="text"></td>
+          </tr>
+          <tr>
+            <td>홈페이지<input type="text"></td>
+          </tr>
+          <tr>
+            <td>법인여부<input type="radio" name="low" id="lowY">
+            <label for="lowY">법인</label>
+            <input type="radio" name="low" id="lowN">
+            <label for="lowN">개인</label></td>
+            <td>해외여부<input type="radio" name="foriegn" id="foriegnN">
+              <label for="foriegnN">국내</label>
+              <input type="radio" name="foriegn" id="foriegnY">
+              <label for="foriegnY">해외</label></td></td>
+          </tr>
+          <tr>
+            <td>특수관계자<input type="checkbox"></td>
+            <td>거래중지<input type="checkbox"></td>
+          </tr>
+          <tr>
+            <td>과세구분
+              <select>
+                <option value="taxY">과세</option>
+                <option value="taxN">면세</option>
+              </select>
+            </td>
+            <td>국 &nbsp&nbsp&nbsp 가
+              <select>
+                <option value="KOR">대한민국</option>
+              </select>
+            </td>
+          </tr>
+          <tr>
+            <td>계약기간<input type="date">&nbsp&nbsp&nbsp~&nbsp&nbsp&nbsp<input type="date"></td>
+          </tr>
+          <tr>
+            <td>등록정보<input type="text"><input type="date"></td>
+            <td>변경정보<input type="text"><input type="date"></td>
+          </tr>
+          <table>
+            <caption>(거래처 등록정보)</caption>
+            <tr>
+              <td>사 무 소</td>
+              <td>은 &nbsp&nbsp&nbsp 행</td>
+              <td>계좌번호</td>
+            </tr>
+            <tr>
+              <td><input type="text"></td>
+              <td><input type="text"></td>
+              <td><input type="text"></td>
+            </tr>
+          </table>
+        </table>
+      </fieldset>
+    </form>
+  </div>
+</body>
+</html>

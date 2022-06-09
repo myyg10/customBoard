@@ -1,0 +1,29 @@
+h1 {
+  display: inline;
+}
+nav {
+  float: right;
+  padding-top: 10px;
+  padding-right: 370px;
+}
+td, th {
+  border: 1px solid;
+}
+#search {
+  margin-top: 20px;
+  width: 400px;
+  float: left;
+}
+ul {
+  border: 1px solid;
+  list-style-type: none;
+}
+#selectTable {
+  border: 1px solid;
+  border-collapse: collapse;
+  width: 400px;
+}
+#info {
+  margin-top: 20px;
+  float: left;
+}
