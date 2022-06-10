@@ -6,24 +6,46 @@ nav {
   padding-top: 10px;
   padding-right: 370px;
 }
-td, th {
-  border: 1px solid;
-}
-#search {
+.search {
   margin-top: 20px;
   width: 400px;
   float: left;
 }
-ul {
+.search ul {
   border: 1px solid;
   list-style-type: none;
 }
+#selectTable td, th {
+  border: 1px solid;
+}
 #selectTable {
+  text-align: center;
   border: 1px solid;
   border-collapse: collapse;
   width: 400px;
 }
-#info {
+.info {
   margin-top: 20px;
   float: left;
+}
+.info td {
+  padding: 2.5px;
+}
+.info input[radio] {
+  float: none;
+}
+.info label {
+  float: left;
+  width: 90px;
+}
+#radio {
+  border: 1px solid;
+}
+#regiInfo {
+  text-align: center;
+  border: 1px solid;
+  border-collapse: collapse;
+}
+#regiInfo td {
+  border: 1px solid;
 }
