@@ -28,7 +28,7 @@
           </li>
           <li>
             <label for="custom">거래처명</label>
-            <input id="custom" name="custom" type="text" >
+            <input id="custom" name="custom" type="text">
             <input type="submit" value="조회">
           </li>
         </ul>
@@ -107,7 +107,7 @@
               <input id="busiNum" name="busiNum" type="text">
             </td>
             <td>
-              <label for="short">약 &nbsp&nbsp&nbsp 칭</label>
+              <label for="short">약칭</label>
               <input id="short" name="short" type="text">
             </td>
           </tr>
@@ -126,70 +126,114 @@
               <input id="manager" name="manager" type="text">
           </tr>
           <tr>
-            <td>업 &nbsp&nbsp&nbsp 태<input type="text"></td>
-            <td>종 &nbsp&nbsp&nbsp 목<input type="text"></td>
-          </tr>
-          <tr>
-            <td>우편번호<input type="text"></td>
-            <td>주 소 1<input type="text"></td>
-          </tr>
-          <tr>
-            <td>주 소 2<input type="text"></td>
-          </tr>
-          <tr>
-            <td>전화번호<input type="text"></td>
-            <td>팩스번호<input type="text"></td>
-          </tr>
-          <tr>
-            <td>홈페이지<input type="text"></td>
-          </tr>
-          <tr>
             <td>
-              <label>법인여부</label>
-              <label id="radio"><input type="radio" name="low" vlaue="yes">법인</label>
-              <label id="radio"><input type="radio" name="low" vlaue="no">개인</label>
+              <label for="busiSt">업태</label>
+              <input id="busiSt" name="busiSt" type="text">
             </td>
             <td>
-              <label>해외여부</label>
-              <label id="radio"><input type="radio" name="low" vlaue="no">국내</label>
-              <label id="radio"><input type="radio" name="low" vlaue="yes">해외</label>
+              <label for="busiType">종목</label>
+              <input id="busiType" name="busiType" type="text">
             </td>
           </tr>
           <tr>
-            <td>과세구분
-              <select>
+            <td>
+              <label for="zipNum">우편번호</label>
+              <input if="zipNum" nume="zipNum" type="text" ><input type="button" value="검색">
+            </td>
+            <td>
+              <label for="addrres1">주 소 1</label>
+              <input id="addrres1" name="addrres1" type="text">
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <label for="addrres2">주 소 2</label>
+              <input id="addrres2" name="addrres2" type="text">
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <label for="tel">전화번호</label>
+              <input id="tel" name="tel" type="text">
+            </td>
+            <td>
+              <label for="fax">팩스번호</label>
+              <input id="fax" name="fax" type="text">
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <label for="homepage">홈페이지</label>
+              <input id="homepage" name="homepage" type="text">
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <label for="low">법인여부</label>
+              <input id="low" name="low" type="radio" vlaue="yes">법인
+              <input id="low" name="low" type="radio" vlaue="no">개인
+            </td>
+            <td>
+              <label for="foreign">해외여부</label>
+              <input id="foreign" name="foreign" type="radio" vlaue="no">국내
+              <input id="foreign" name="foreign" type="radio" vlaue="yes">해외
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <label for="tax">과세구분</label>
+              <select id="tax">
                 <option value="taxY">과세</option>
                 <option value="taxN">면세</option>
               </select>
             </td>
-            <td>국 &nbsp&nbsp&nbsp 가
-              <select>
+            <td>
+              <label for=:country>국가</label>
+              <select id="country">
                 <option value="KOR">대한민국</option>
               </select>
             </td>
           </tr>
           <tr>
-            <td>특수관계자<input type="checkbox"></td>
-            <td>거래중지<input type="checkbox"></td>
+            <td>
+              <label for="special">특수관계자</label>
+              <input id="special" name="special" type="checkbox">
+            </td>
+            <td>
+              <label for="trade">거래중지</label>
+              <input id="trade" name="trade" type="checkbox">
+            </td>
           </tr>
           <tr>
-            <td>계약기간<input type="date">&nbsp&nbsp&nbsp~&nbsp&nbsp&nbsp<input type="date"></td>
+            <td>
+              <label for="term">계약기간</label>
+              <input id="term" name="term" type="date">&nbsp&nbsp&nbsp~&nbsp&nbsp&nbsp
+              <input id="term" name="term" type="date">
+            </td>
           </tr>
           <tr>
-            <td>등록정보<input type="text" size="3"><input type="date"></td>
-            <td>변경정보<input type="text" size="3"><input type="date"></td>
+            <td>
+              <label for="regi">등록정보</label>
+              <input id="regi" name="regi" type="text" size="3">
+              <input id="regi" name="regi" type="date">
+            </td>
+            <td>
+              <label for="modi">변경정보</label>
+              <input id="modi" name="modi" type="text" size="3">
+              <input id="modi" name="modi" type="date">
+            </td>
           </tr>
           <table id="regiInfo">
             <caption>(거래처 등록정보)</caption>
             <tr>
               <td>사 무 소</td>
-              <td>은 &nbsp&nbsp&nbsp 행</td>
+              <td>은행</td>
               <td>계좌번호</td>
             </tr>
             <tr>
-              <td><input type="text" size="25"></td>
-              <td><input type="text" size="25"></td>
-              <td><input type="text" size="25"></td>
+              <td><input type="text" size="28"></td>
+              <td><input type="text" size="28"></td>
+              <td><input type="text" size="28"></td>
             </tr>
           </table>
         </table>
