@@ -43,14 +43,17 @@ nav {
   float: left;
   width: 90px;
 }
-#foreign {
-  border: 1px solid;
-}
 #regiInfo {
-  text-align: center;
   border: 1px solid;
   border-collapse: collapse;
 }
 #regiInfo td {
   border: 1px solid;
+}
+#regiInfo label {
+  text-align: center;
+  width: 210px;
+}
+#sub {
+  text-align: center;
 }

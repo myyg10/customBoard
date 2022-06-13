@@ -4,103 +4,12 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>거래처 관리</title>
+  <title>reg</title>
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-  <div class="container">
-    <header>
-      <div>
-        <h1>거래처 관리</h1>
-        <nav>
-          <button onclick="window.open('reg.html', 'pop', 'width=800, height=600')">등록</button>
-          <button onclick="window.open('update.html', 'pop', 'width=800, height=600')">수정</button>
-          <input type="button" value="삭제">
-        </nav>
-      </div>
-    </header>
-    <fieldset class="search">
-      <form>
-        <ul>
-          <li>
-            <label for="busiNum">사업자 번호</label>
-            <input id="busiNum" name="businum" type="text" >
-          </li>
-          <li>
-            <label for="custom">거래처명</label>
-            <input id="custom" name="custom" type="text">
-            <input type="submit" value="조회">
-          </li>
-        </ul>
-      </form>
-      <table id="selectTable">
-        <tr>
-          <th>사업자 번호</th>
-          <th>거래처명</th>
-        </tr>
-        <tr>
-          <td>1111</td>
-          <td>롯데마트</td>
-        </tr>
-        <tr>
-          <td>1111</td>
-          <td>롯데마트</td>
-        </tr>
-        <tr>
-          <td>1111</td>
-          <td>롯데마트</td>
-        </tr>
-        <tr>
-          <td>1111</td>
-          <td>롯데마트</td>
-        </tr>
-        <tr>
-          <td>1111</td>
-          <td>롯데마트</td>
-        </tr>
-        <tr>
-          <td>1111</td>
-          <td>롯데마트</td>
-        </tr>
-        <tr>
-          <td>1111</td>
-          <td>롯데마트</td>
-        </tr>
-        <tr>
-          <td>1111</td>
-          <td>롯데마트</td>
-        </tr>
-        <tr>
-          <td>1111</td>
-          <td>롯데마트</td>
-        </tr>
-        <tr>
-          <td>1111</td>
-          <td>롯데마트</td>
-        </tr>
-        <tr>
-          <td>1111</td>
-          <td>롯데마트</td>
-        </tr>
-        <tr>
-          <td>1111</td>
-          <td>롯데마트</td>
-        </tr>
-        <tr>
-          <td>1111</td>
-          <td>롯데마트</td>
-        </tr>
-        <tr>
-          <td>1111</td>
-          <td>롯데마트</td>
-        </tr>
-        <tr>
-          <td>1111</td>
-          <td>롯데마트</td>
-        </tr>
-      </table>
-    </fieldset>
-    <fieldset class="info">
+  <fieldset class="info">
+    <form>
       <table>
         <tr>
           <td>
@@ -250,8 +159,12 @@
           </tr>
         </table>
       </table>
-    </fieldset>
-  </div>
+      <div id="sub">
+        <input id="submit" type="submit" value="등록">
+        <input id="reset" type="reset" value="취소">
+      </div>
+    </form>
+  </fieldset>
   <script src="js/javaScript.js"></script>
 </body>
 </html>
