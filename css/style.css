@@ -23,6 +23,7 @@ nav {
 }
 #selectTable td, th {
   border: 1px solid;
+  height: 20px;
 }
 #selectTable {
   text-align: center;
