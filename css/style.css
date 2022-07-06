@@ -1,11 +1,6 @@
 h1 {
   display: inline;
 }
-nav {
-  float: right;
-  padding-top: 10px;
-  padding-right: 380px;
-}
 .search {
   margin-top: 20px;
   width: 400px;
@@ -56,5 +51,8 @@ nav {
   width: 210px;
 }
 #sub {
+  text-align: center;
+}
+#updateDelete {
   text-align: center;
 }

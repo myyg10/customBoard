@@ -45,159 +45,156 @@
       </table>
     </fieldset>
     <fieldset class="info">
-      <form>
-        <table>
+      <table>
+        <tr>
+          <td>
+            <label for="busiNum">사업자번호</label>
+            <input id="busiNum" name="busiNum" type="text">
+          </td>
+          <td>
+            <label for="shortAb">약칭</label>
+            <input id="shortAb" name="shortAb" type="text">
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <label for="custom">거래처명</label>
+            <input id="custom" name="custom" type="text">
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <label for="ceo">대표자</label>
+            <input id="ceo" name="ceo" type="text">
+          <td>
+            <label for="manager">담당자</label>
+            <input id="manager" name="manager" type="text">
+        </tr>
+        <tr>
+          <td>
+            <label for="busiSt">업태</label>
+            <input id="busiSt" name="busiSt" type="text">
+          </td>
+          <td>
+            <label for="busiType">종목</label>
+            <input id="busiType" name="busiType" type="text">
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <label for="zipNum">우편번호</label>
+            <input if="zipNum" nume="zipNum" type="text" ><input type="button" value="검색">
+          </td>
+          <td>
+            <label for="addrres1">주 소 1</label>
+            <input id="addrres1" name="addrres1" type="text">
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <label for="addrres2">주 소 2</label>
+            <input id="addrres2" name="addrres2" type="text">
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <label for="tel">전화번호</label>
+            <input id="tel" name="tel" type="text">
+          </td>
+          <td>
+            <label for="fax">팩스번호</label>
+            <input id="fax" name="fax" type="text">
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <label for="homepage">홈페이지</label>
+            <input id="homepage" name="homepage" type="text">
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <label for="low">법인여부</label>
+            <input id="low" name="low" type="radio" vlaue="yes">법인
+            <input id="low" name="low" type="radio" vlaue="no">개인
+          </td>
+          <td>
+            <label for="foreignYN">해외여부</label>
+            <input id="foreignYN" name="foreignYN" type="radio" vlaue="no">국내
+            <input id="foreignYN" name="foreignYN" type="radio" vlaue="yes">해외
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <label for="tax">과세구분</label>
+            <select id="tax">
+              <option value="taxY">과세</option>
+              <option value="taxN">면세</option>
+            </select>
+          </td>
+          <td>
+            <label for=:country>국가</label>
+            <select id="country">
+              <option value="KOR">대한민국</option>
+            </select>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <label for="special">특수관계자</label>
+            <input id="special" name="special" type="checkbox">
+          </td>
+          <td>
+            <label for="trade">거래중지</label>
+            <input id="trade" name="trade" type="checkbox">
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <label for="term">계약기간</label>
+            <input id="termStart" name="termStart" type="date">&nbsp&nbsp&nbsp~&nbsp&nbsp&nbsp
+            <input id="termEnd" name="termEnd" type="date">
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <label for="regi">등록정보</label>
+            <input id="regi" name="regi" type="text" size="3">
+            <input id="regiDate" name="regiDate" type="date">
+          </td>
+          <td>
+            <label for="modi">변경정보</label>
+            <input id="modi" name="modi" type="text" size="3">
+            <input id="modiDate" name="modiDate" type="date">
+          </td>
+        </tr>
+        <table id="regiInfo">
+          <caption>(거래처 등록정보)</caption>
           <tr>
             <td>
-              <label for="busiNum">사업자번호</label>
-              <input id="busiNum" name="busiNum" type="text">
+              <label for="office">사 무 소</label>
             </td>
             <td>
-              <label for="short">약칭</label>
-              <input id="short" name="short" type="text">
+              <label for="bank">은 행</label>
+            </td>
+            <td>
+              <label for="bankNum">계좌번호</label>
             </td>
           </tr>
           <tr>
             <td>
-              <label for="custom">거래처명</label>
-              <input id="custom" name="custom" type="text">
+              <input id="office" name="office" type="text" size="28">
+            </td>
+            <td>
+              <input id="bank" name="bank" type="text" size="28">
+            </td>
+            <td>
+              <input id="bankNum" name="bankNum" type="text" size="28">
             </td>
           </tr>
-          <tr>
-            <td>
-              <label for="ceo">대표자</label>
-              <input id="ceo" name="ceo" type="text">
-            <td>
-              <label for="manager">담당자</label>
-              <input id="manager" name="manager" type="text">
-          </tr>
-          <tr>
-            <td>
-              <label for="busiSt">업태</label>
-              <input id="busiSt" name="busiSt" type="text">
-            </td>
-            <td>
-              <label for="busiType">종목</label>
-              <input id="busiType" name="busiType" type="text">
-            </td>
-          </tr>
-          <tr>
-            <td>
-              <label for="zipNum">우편번호</label>
-              <input if="zipNum" nume="zipNum" type="text" ><input type="button" value="검색">
-            </td>
-            <td>
-              <label for="addrres1">주 소 1</label>
-              <input id="addrres1" name="addrres1" type="text">
-            </td>
-          </tr>
-          <tr>
-            <td>
-              <label for="addrres2">주 소 2</label>
-              <input id="addrres2" name="addrres2" type="text">
-            </td>
-          </tr>
-          <tr>
-            <td>
-              <label for="tel">전화번호</label>
-              <input id="tel" name="tel" type="text">
-            </td>
-            <td>
-              <label for="fax">팩스번호</label>
-              <input id="fax" name="fax" type="text">
-            </td>
-          </tr>
-          <tr>
-            <td>
-              <label for="homepage">홈페이지</label>
-              <input id="homepage" name="homepage" type="text">
-            </td>
-          </tr>
-          <tr>
-            <td>
-              <label for="low">법인여부</label>
-              <input id="low" name="low" type="radio" vlaue="yes">법인
-              <input id="low" name="low" type="radio" vlaue="no">개인
-            </td>
-            <td>
-              <label for="foreign">해외여부</label>
-              <input id="foreign" name="foreign" type="radio" vlaue="no">국내
-              <input id="foreign" name="foreign" type="radio" vlaue="yes">해외
-            </td>
-          </tr>
-          <tr>
-            <td>
-              <label for="tax">과세구분</label>
-              <select id="tax">
-                <option value="taxY">과세</option>
-                <option value="taxN">면세</option>
-              </select>
-            </td>
-            <td>
-              <label for=:country>국가</label>
-              <select id="country">
-                <option value="KOR">대한민국</option>
-              </select>
-            </td>
-          </tr>
-          <tr>
-            <td>
-              <label for="special">특수관계자</label>
-              <input id="special" name="special" type="checkbox">
-            </td>
-            <td>
-              <label for="trade">거래중지</label>
-              <input id="trade" name="trade" type="checkbox">
-            </td>
-          </tr>
-          <tr>
-            <td>
-              <label for="term">계약기간</label>
-              <input id="term" name="term" type="date">&nbsp&nbsp&nbsp~&nbsp&nbsp&nbsp
-              <input id="term" name="term" type="date">
-            </td>
-          </tr>
-          <tr>
-            <td>
-              <label for="regi">등록정보</label>
-              <input id="regi" name="regi" type="text" size="3">
-              <input id="regi" name="regi" type="date">
-            </td>
-            <td>
-              <label for="modi">변경정보</label>
-              <input id="modi" name="modi" type="text" size="3">
-              <input id="modi" name="modi" type="date">
-            </td>
-          </tr>
-          <table id="regiInfo">
-            <caption>(거래처 등록정보)</caption>
-            <tr>
-              <td>
-                <label for="office">사 무 소</label>
-              </td>
-              <td>
-                <label for="bank">은 행</label>
-              </td>
-              <td>
-                <label for="bankNum">계좌번호</label>
-              </td>
-            </tr>
-            <tr>
-              <td>
-                <input id="office" name="office" type="text" size="28">
-              </td>
-              <td>
-                <input id="bank" name="bank" type="text" size="28">
-              </td>
-              <td>
-                <input id="bankNum" name="bankNum" type="text" size="28">
-              </td>
-            </tr>
-          </table>
         </table>
-      </form>
+      </table>
     </fieldset>
   </div>
-  <script src="js/javaScript.js"></script>
 </body>
 </html>
